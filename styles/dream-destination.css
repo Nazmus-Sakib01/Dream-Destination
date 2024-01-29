@@ -1,0 +1,286 @@
+/* Shared Styles */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap');
+
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+header,
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+:root {
+    --orange: #FF5400;
+    --black: #131318;
+    --light-black: #424247;
+    --light-black-2: #5A5A5D;
+    --light-black-3: rgba(19, 19, 24, 0.50);
+    --white: #FFF;
+
+}
+
+.primary-title {
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.primary-description {
+    color: var(--light-black-2);
+}
+
+.orange-title {
+    color: var(--orange);
+}
+
+.button-primary {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: var(--orange);
+    color: var(--white);
+    font-weight: 800;
+    border: none;
+}
+
+/* header section */
+/* nav section */
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-container .logo-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo .logo-img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.menu-bar img {
+    width: 40px;
+    display: none;
+}
+
+.nav-item {
+    margin-left: 100px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 1.15rem;
+    color: var(--light-black-2);
+}
+
+.nav-item .orange-home {
+    color: var(--orange);
+}
+
+/* banner section */
+.banner-container {
+    max-width: 1170px;
+    height: 500px;
+    border: 1px solid var(--black);
+    border-radius: 16px 16px;
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    border: none;
+    margin: 50px auto;
+    background-size: cover;
+
+
+}
+
+.banner-text-container {
+    text-align: center;
+    padding-top: 70px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    border-radius: 16px;
+}
+
+.banner-title {
+    color: var(--white);
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.banner-description {
+    color: var(--white);
+    line-height: 1.8rem;
+    padding: 0 250px;
+}
+
+.banner-form {
+    display: inline-flex;
+    gap: 25px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin-bottom: 100px;
+    padding: 10px;
+}
+
+.form-item {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    padding-left: 15px;
+    border: none;
+    color: var(--light-black-3);
+
+}
+
+.form-button-items .search-icon {
+    width: 20px;
+    height: 20px;
+    color: var(--white);
+}
+
+.form-button-items {
+    display: inline flex;
+    align-items: center;
+    justify-content: center;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: var(--orange);
+    color: var(--white);
+    border: none;
+}
+
+.form-button-items .form-button {
+    background: var(--orange);
+    color: var(--white);
+    font-weight: 700;
+    border: none;
+}
+
+/* <!-- popular tours section  --> */
+.popular-tours-item-container {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.popular-tours-text-container {
+    margin-right: 70px;
+}
+
+/* <!-- Destination section --> */
+.destination-container {
+    margin-top: 100px;
+}
+
+.destination-text-container {
+    text-align: center;
+    padding: 0 200px;
+}
+
+
+
+.place-name {
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: var(--white);
+    text-align: center;
+    margin: 120px auto;
+}
+
+.place-container-1,
+.place-container-2,
+.place-container-3 {
+    display: grid;
+    gap: 24px;
+    margin: 24px 0;
+
+
+
+}
+
+.place-box {
+    height: 300px;
+}
+
+.place-box-2 {
+    height: 286px;
+}
+
+.place-container-1 {
+    grid-template-columns: 573px 573px;
+
+}
+
+.maldives {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 5.png), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background-size: cover;
+
+}
+
+.indonesia {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 8.png), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background-size: cover;
+}
+
+.place-container-2 {
+    grid-template-columns: 374px 474px 274px;
+}
+
+.srilanka {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 6.png), lightgray 50% / cover no-repeat;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.north-america {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 7.png), lightgray 50% / cover no-repeat;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kashmir {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 9.png), lightgray 50% / cover no-repeat;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.place-container-3 {
+    grid-template-columns: 473px 673px;
+}
+
+.bangladesh {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 11.png), lightgray 50% / cover no-repeat;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bandarban {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 10.png), lightgray 50% / cover no-repeat;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
