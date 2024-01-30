@@ -23,9 +23,11 @@
     .menu-bar img {
         width: 24px;
         height: 24px;
-        display: block;
-        margin-left: 265px;
 
+    }
+
+    .menu-bar {
+        display: block;
     }
 
     .nav-item {
@@ -88,13 +90,65 @@
 
     .place-container-1,
     .place-container-2,
-    .place-container-3{
+    .place-container-3 {
         grid-template-columns: none;
         width: 500px;
         align-items: center;
         margin: 24px auto;
-        
+
     }
-    .place-box, .place-box-2{
+
+    .place-box,
+    .place-box-2 {
         height: 300px;
     }
+
+    /* Services section */
+    .services-container{
+    margin: 30px auto;
+    padding: 10px auto;
+    align-items: center;
+    justify-items: center;
+   
+    }
+    .sevices-text{
+        width: 450px;
+        padding: 0 40px;
+    }
+    .services-box {
+        width: 460px;
+
+    }
+
+    .services-box-container {
+        flex-direction: column;
+        margin: 18px;
+         
+    }
+    .box-3{
+        margin: 24px auto;
+        margin-left: 18px;
+    }
+    /* <!-- deals section --> */
+    .deals-container{
+        margin-top: 30px;
+    }
+    .deals-text{
+        padding: 0 40px ;
+    }
+    .deals-bg {
+        width: 500px;
+        height: 600px;
+    }
+    .deals-item-container{
+        width: 400px;
+        height: 395px;
+        margin: 150px auto 20px auto;
+    }
+    .deals-heading-items{
+        gap: 15px;
+    }
+    .deal-button{
+        margin-top: 30px;
+    }
+}
