@@ -131,7 +131,7 @@
     }
     /* <!-- deals section --> */
     .deals-container{
-        margin-top: 30px;
+        margin: 30px auto;
     }
     .deals-text{
         padding: 0 40px ;
@@ -150,5 +150,15 @@
     }
     .deal-button{
         margin-top: 30px;
+    }
+    /* <!-- perfect place section --> */
+    .perfect-place-container{
+        flex-direction: column;
+        gap: 24px;
+        margin: 0 30px;
+    }
+    .perfect-place-video video{
+        width: 500px;
+        height: 300px;
     }
 }
