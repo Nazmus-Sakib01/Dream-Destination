@@ -6,7 +6,7 @@
     }
 
     header,
-    main {
+    main, footer {
         width: 600px;
         margin: 0 auto;
     }
