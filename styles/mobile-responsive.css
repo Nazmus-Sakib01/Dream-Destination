@@ -1,4 +1,4 @@
-@media screen and (max-width:600px) {
+@media only screen and (max-width:600px) {
 
     /* shared styles */
     .primary-title {
@@ -7,14 +7,15 @@
 
     header,
     main {
-        width: 95%;
-    }
-
-    .primary-description {
-        font-size: 0.85rem;
+        width: 600px;
+        margin: 0 auto;
     }
 
     /* nav section */
+    .nav-container {
+        margin: 30px;
+    }
+
     .logo .logo-img {
         width: 25px;
         height: 25px;
@@ -27,7 +28,7 @@
     }
 
     .menu-bar {
-        display: block;
+        display: inline;
     }
 
     .nav-item {
@@ -73,10 +74,12 @@
     .popular-tours-item-container {
         flex-direction: column;
         gap: 24px;
+        margin-top: 30px;
 
     }
 
     .popular-tours-text-container {
+        width: 500px;
         margin-right: 0;
         margin-bottom: 20px;
     }
@@ -88,7 +91,7 @@
 
     /* <!-- Destination section --> */
     .destination-container {
-        margin-top: 30px;
+        margin: 30px;
     }
 
     .destination-text-container {
@@ -112,7 +115,7 @@
 
     /* Services section */
     .services-container {
-        margin: 30px auto;
+        margin: 0 30px;
         padding: 10px auto;
         align-items: center;
         justify-items: center;
@@ -155,9 +158,10 @@
     }
 
     .deals-item-container {
-        width: 400px;
+        width: 430px;
         height: 395px;
         margin: 150px auto 20px auto;
+        backdrop-filter: none;
     }
 
     .deals-heading-items {
@@ -171,8 +175,12 @@
     /* <!-- perfect place section --> */
     .perfect-place-container {
         flex-direction: column;
-        gap: 24px;
         margin: 0 30px;
+        gap: 0;
+    }
+
+    .perfect-place-text {
+        margin: 30px;
     }
 
     .perfect-place-video video {
@@ -191,28 +199,62 @@
 
     .guide-items-container {
         flex-direction: column;
+        gap: 24px;
+        align-items: center;
+        justify-content: center;
     }
+
+    .guide-container {
+        height: 480px;
+        width: 400px;
+    }
+
+    .guide-container button {
+        height: 30px;
+        width: 100px;
+    }
+
     /* newsletter section */
-    .newsletter-container{
+    .newsletter-container {
         flex-direction: column;
-        margin: 30 auto;
+        align-items: center;
+        justify-content: center;
+        margin: 30px 30px 0 30px;
+        gap: 20px;
     }
-    .newsletter-photo-container img{
-        width: 360px;
-        height: 300px;
+
+    .newsletter-photo-container img {
+        width: 485px;
+        height: 363px;
     }
+
     .newsletter-items {
-        padding: 10px;
-        width: 340px;
-        height: 300px;
+     width: 440px;
+     height: 353px;
+     padding: 20px;
+
     }
-    #newsletter-input-items{
-        width: 250px;
-        height: 30px;
+    .discount-box{
+        width: 200px;
+        height: 90px;
+        top: -130px;
+        left: 270px;
+        border-radius: 10px;
     }
-    #newsletter-button{
-        width: 265px;
-        height: 30px;
+    .discount-box p{
+        font-size: 1rem;
+        padding-top: 23px;
     }
-    
+    .discount-box h3{
+        font-size: 1.3rem;
+    }
+/* footer section */
+footer{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.footer-container {
+    padding: 30px 50px;
+}
 }

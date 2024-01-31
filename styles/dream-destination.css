@@ -370,7 +370,7 @@ main {
     border-radius: 16px;
     border: 2px solid #FFF;
     background: rgba(255, 255, 255, 0.80);
-    backdrop-filter: blur(2.5px);
+    backdrop-filter: blur(1px);
     margin: 0px 55px 55px 520px;
     padding-top: 30px;
     padding-left: 30px;
@@ -414,8 +414,9 @@ main {
 .perfect-place-container {
     display: flex;
     gap: 50px;
-    align-content: center;
+    justify-content: center;
     align-items: center;
+
 }
 
 .perfect-place-video video {
@@ -451,7 +452,7 @@ main {
     height: 520px;
     border: 5px solid black;
     padding: 10px;
-    box-shadow: 10px 10px rgba(211, 211, 211, 0.338);
+    box-shadow: 5px 10px rgba(211, 211, 211, 0.13);
     border: none;
 
 }
@@ -459,6 +460,7 @@ main {
 .guide-photo {
     width: 200px;
     height: 200px;
+    border-radius: 8px;
     object-fit: cover;
 }
 
@@ -493,7 +495,7 @@ main {
 
 /* newsletter section */
 .newsletter-container {
-    margin: 100px auto;
+    margin: 100px auto 0 auto;
     display: flex;
     gap: 24px;
 }
@@ -522,8 +524,73 @@ main {
     color: var(--light-black-3);
     padding-left: 15px;
 }
-#newsletter-button{
+
+#newsletter-button {
     width: 393px;
     height: 52px;
     margin-top: 10px;
+
+}
+
+.discount-box {
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FF5400;
+    position: relative;
+    left: 335px;
+    top: -180px;
+    text-align: center;
+}
+.discount-box p{
+    font-size: 1.2rem;
+    color: var(--white);
+    padding: 0;
+    margin: 0;
+    padding-top: 30px;
+    
+}
+.discount-box h3{
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--white);
+    padding: 0;
+    margin: 0;
+}
+
+/* footer section */
+footer {
+    margin: 0;
+    padding: 0;
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+}
+
+.footer-container {
+    padding: 100px 300px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-logo img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.footer-title {
+    font-size: 1.85rem;
+    font-weight: 800;
+    color: var(--black);
+}
+
+.footer-orange-title {
+    color: var(--orange);
 }
