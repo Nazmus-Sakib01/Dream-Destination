@@ -423,9 +423,107 @@ main {
     height: 400px;
     object-fit: fill;
     border-radius: 16px;
-    
+
 }
-.about-places{
+
+.about-places {
     font-weight: 700;
     color: var(--black);
+}
+
+/* <!-- tourist-guide-section --> */
+.tourist-guide-container {
+    margin-top: 100px;
+}
+
+.guide-heading-text {
+    text-align: center;
+    padding: 0 250px;
+}
+
+.guide-items-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.guide-container {
+    width: 310px;
+    height: 520px;
+    border: 5px solid black;
+    padding: 10px;
+    box-shadow: 10px 10px rgba(211, 211, 211, 0.338);
+    border: none;
+
+}
+
+.guide-photo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.guide-name {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.guide-email {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.guide-email img {
+    width: 18px;
+    height: 18px;
+    object-fit: cover;
+}
+
+.guide-phone {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.guide-phone img {
+    width: 18px;
+    height: 18px;
+    object-fit: cover;
+}
+
+/* newsletter section */
+.newsletter-container {
+    margin: 100px auto;
+    display: flex;
+    gap: 24px;
+}
+
+.newsletter-items {
+    width: 500px;
+    height: 363px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 30px;
+}
+
+.newletter-title {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: var(--black);
+}
+
+#newsletter-input-items {
+    width: 380px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 10px;
+    border: none;
+    color: var(--light-black-3);
+    padding-left: 15px;
+}
+#newsletter-button{
+    width: 393px;
+    height: 52px;
+    margin-top: 10px;
 }

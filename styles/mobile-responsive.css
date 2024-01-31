@@ -10,7 +10,7 @@
         width: 95%;
     }
 
-    .primary-text {
+    .primary-description {
         font-size: 0.85rem;
     }
 
@@ -36,6 +36,8 @@
 
     /* banner section */
     .banner-container {
+        width: 500px;
+        height: 510px;
         margin: 20px auto;
     }
 
@@ -70,13 +72,18 @@
     /* <!-- popular tours section  --> */
     .popular-tours-item-container {
         flex-direction: column;
-        margin-top: 30px;
+        gap: 24px;
 
     }
 
     .popular-tours-text-container {
         margin-right: 0;
         margin-bottom: 20px;
+    }
+
+    .popular-tours-img-container img {
+        width: 500px;
+        height: 540px;
     }
 
     /* <!-- Destination section --> */
@@ -104,17 +111,19 @@
     }
 
     /* Services section */
-    .services-container{
-    margin: 30px auto;
-    padding: 10px auto;
-    align-items: center;
-    justify-items: center;
-   
+    .services-container {
+        margin: 30px auto;
+        padding: 10px auto;
+        align-items: center;
+        justify-items: center;
+
     }
-    .sevices-text{
+
+    .sevices-text {
         width: 450px;
         padding: 0 40px;
     }
+
     .services-box {
         width: 460px;
 
@@ -123,42 +132,87 @@
     .services-box-container {
         flex-direction: column;
         margin: 18px;
-         
+
     }
-    .box-3{
+
+    .box-3 {
         margin: 24px auto;
         margin-left: 18px;
     }
+
     /* <!-- deals section --> */
-    .deals-container{
+    .deals-container {
         margin: 30px auto;
     }
-    .deals-text{
-        padding: 0 40px ;
+
+    .deals-text {
+        padding: 0 40px;
     }
+
     .deals-bg {
         width: 500px;
         height: 600px;
     }
-    .deals-item-container{
+
+    .deals-item-container {
         width: 400px;
         height: 395px;
         margin: 150px auto 20px auto;
     }
-    .deals-heading-items{
+
+    .deals-heading-items {
         gap: 15px;
     }
-    .deal-button{
+
+    .deal-button {
         margin-top: 30px;
     }
+
     /* <!-- perfect place section --> */
-    .perfect-place-container{
+    .perfect-place-container {
         flex-direction: column;
         gap: 24px;
         margin: 0 30px;
     }
-    .perfect-place-video video{
+
+    .perfect-place-video video {
         width: 500px;
         height: 300px;
     }
+
+    /* <!-- tourist-guide-section --> */
+    .tourist-guide-container {
+        margin-top: 30px;
+    }
+
+    .guide-heading-text {
+        padding: 0 30px;
+    }
+
+    .guide-items-container {
+        flex-direction: column;
+    }
+    /* newsletter section */
+    .newsletter-container{
+        flex-direction: column;
+        margin: 30 auto;
+    }
+    .newsletter-photo-container img{
+        width: 360px;
+        height: 300px;
+    }
+    .newsletter-items {
+        padding: 10px;
+        width: 340px;
+        height: 300px;
+    }
+    #newsletter-input-items{
+        width: 250px;
+        height: 30px;
+    }
+    #newsletter-button{
+        width: 265px;
+        height: 30px;
+    }
+    
 }
